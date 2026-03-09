@@ -7,6 +7,5 @@
     <File Description="Init, cyclic, exit code" TransferedForTargetSourceCompare="true">MachineManager.stpp</File>
     <File Description="Local data types" Private="true" TransferedForTargetSourceCompare="true">MachineManager.typ</File>
     <File Description="Local variables" Private="true" TransferedForTargetSourceCompare="true">MachineManager.var</File>
-    <File Private="true">Classes.cls</File>
   </Files>
 </Program>

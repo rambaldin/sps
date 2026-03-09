@@ -4,13 +4,13 @@
   <TaskClass Name="Cyclic#1">
     <Task Name="MoveAxis" Source="Motion.MoveAxis.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="SimConnect" Source="SimConnect.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="BoxCreate" Source="BoxLift.BoxCreate.BoxCreate.prg" Memory="UserROM" Language="IEC" Debugging="true" Disabled="true" />
-    <Task Name="InfeedUp" Source="BoxLift.InfeedUp.InfeedUp.prg" Memory="UserROM" Language="IEC" Debugging="true" Disabled="true" />
-    <Task Name="InfeedLow" Source="BoxLift.InfeedLow.InfeedLow.prg" Memory="UserROM" Language="IEC" Debugging="true" Disabled="true" />
-    <Task Name="Lift" Source="BoxLift.Lift.Lift.prg" Memory="UserROM" Language="IEC" Debugging="true" Disabled="true" />
-    <Task Name="Unload" Source="BoxLift.Unload.Unload.prg" Memory="UserROM" Language="IEC" Debugging="true" Disabled="true" />
-    <Task Name="MachineMan" Source="BoxLift.MachineManager.MachineManager.prg" Memory="UserROM" Language="IEC" Debugging="true" Disabled="true" />
-    <Task Name="MachineMa1" Source="BoxLiftOOP.MachineManager.prg" Memory="UserROM" Language="IEC_OOP" Debugging="true" />
+    <Task Name="BoxCreate" Source="BoxLift.BoxCreate.BoxCreate.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="InfeedUp" Source="BoxLift.InfeedUp.InfeedUp.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="InfeedLow" Source="BoxLift.InfeedLow.InfeedLow.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="Lift" Source="BoxLift.Lift.Lift.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="Unload" Source="BoxLift.Unload.Unload.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="MachineMan" Source="BoxLift.MachineManager.MachineManager.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="MachineMa1" Source="BoxLiftOOP.MachineManager.prg" Memory="UserROM" Language="IEC_OOP" Debugging="true" Disabled="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3" />
