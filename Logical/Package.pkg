@@ -11,7 +11,6 @@
     <Object Type="Package">Recipe</Object>
     <Object Type="Package">Safety</Object>
     <Object Type="Package" Description="Project source code" TransferedForTargetSourceCompare="true">BoxLift</Object>
-    <Object Type="Package" Description="Project source code OOP" TransferedForTargetSourceCompare="true">BoxLiftOOP</Object>
     <Object Type="Package">mappView</Object>
     <Object Type="Program" Language="IEC" TransferedForTargetSourceCompare="true">LampTest</Object>
     <Object Type="Program" Language="IEC">SimConnect</Object>
