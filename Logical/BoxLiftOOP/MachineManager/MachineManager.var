@@ -1,0 +1,20 @@
+VAR
+	BoxUpConveyor : BoxCreateConveyor;
+	BoxDownConveyor : BoxCreateConveyor;
+	InfeedUpConveyor : Conveyor;
+	InfeedDownConveyor : Conveyor;
+	UnloadConveyor : Conveyor;
+	Lift : LiftConveyor;
+	Run : BOOL;
+	AutoState : AutoStateEnum;
+	RunOld : BOOL; (*for edge detection of the Run command*)
+
+	(*IO simulation*)
+	diBoxAvailableUp:BOOL;
+	diBoxAvailableDown:BOOL;
+	diBoxAvailableLift:BOOL;
+	diLiftUp:BOOL;
+	diLiftDown:BOOL;
+	diLiftUnload:BOOL;
+	diBoxDetectedUndload:BOOL;
+END_VAR

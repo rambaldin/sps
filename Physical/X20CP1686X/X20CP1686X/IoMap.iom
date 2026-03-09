@@ -1,0 +1,7 @@
+VAR_CONFIG
+	::LampTest:diSwitch AT %IX."X20DI6371".DigitalInput01;
+	::SafetyCtrl:di_Reset AT %IX."X20DI6371".DigitalInput03;
+	::LampTest:doLamp AT %QX."X20DO6322".DigitalOutput01;
+	::LampTest:doLamp AT %QX."X20DO6322".DigitalOutput02;
+	::LampTest:doLamp AT %QX."X20DO6322".DigitalOutput03;
+END_VAR

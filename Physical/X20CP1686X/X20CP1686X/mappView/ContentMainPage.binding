@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingsSet id="ContentMainPage" xmlns="http://www.br-automation.com/iat2015/binding/engineering/v2" xmlns:bt="http://www.br-automation.com/iat2015/bindingListTypes/engineering/v2" xmlns:be="http://www.br-automation.com/iat2015/bindingListEmbedded/engineering/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Bindings>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::Unload:BoxCounter" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentMain" widgetRefId="NumericOutputBoxCounter" attribute="value" />
+		</Binding>	
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::MachineMan:AutoState" attribute="value" />
+			<Target xsi:type="snippet" refId="MachineStateSnippet" attribute="value" />
+		</Binding>		
+		<Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="MachineStateSnippet" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentMain" widgetRefId="TextOutputStatus" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::SimConnect:SimOutputs.aoInfeed2BoxCreationInterval" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentMain" widgetRefId="SpawnRateBottom" attribute="value" />
+		</Binding>
+		<Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="::SimConnect:SimOutputs.aoInfeed1BoxCreationInterval" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentMain" widgetRefId="SpawnRateTop" attribute="value" />
+		</Binding>
+		<Binding mode="twoWay">
+			<Source xsi:type="opcUa" refId="::AsGlobalPV:gAutomatic.Cmd.Run" attribute="value" />
+			<Target xsi:type="brease" contentRefId="ContentMain" widgetRefId="ToggleButtonStartStop" attribute="value" />
+		</Binding>
+	</Bindings>
+</BindingsSet>

@@ -1,0 +1,4 @@
+(*Internal (private) variables*)
+VAR
+	IO : IOType; (*Upper Infeed module IOs*)
+END_VAR

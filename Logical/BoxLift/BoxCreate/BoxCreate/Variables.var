@@ -1,0 +1,4 @@
+(*Internal (private) variables*)
+VAR
+	IO : IOType; (*Box Creation module IOs*)
+END_VAR

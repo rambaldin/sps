@@ -1,0 +1,5 @@
+(*Internal (private) variables*)
+VAR
+	IO : IOType; (*Upper Infeed module IOs*)
+	TryUpwards : BOOL; (*For moving to middle position can be unclear whether to move the lift up or down*)
+END_VAR

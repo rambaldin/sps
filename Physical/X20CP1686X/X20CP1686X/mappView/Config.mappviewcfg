@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="MappViewConfiguration" Type="MAPPVIEWCFG">
+    <Group ID="Server">
+      <Selector ID="WebServerProtocol" Value="2">
+        <Property ID="WebServerPortSsl" Value="81" />
+        <Property ID="SSLConfiguration" Value="WebServConf" />
+      </Selector>
+      <Property ID="MaxClientConnections" Value="4" />
+      <Property ID="MpUserXUserPreferences" Value="FALSE" />
+      <Selector ID="StartupUser" Value="StartupUserDefaultUser">
+        <Property ID="StartupUserDefaultUserName" Value="asdemo" />
+        <Property ID="MVEncryptedPassword" Value="IHGd2TuBe8OEwZBQRHWB4g==" />
+      </Selector>
+      <Group ID="TcpProxyConf">
+        <Selector ID="InsecureMode" Value="1" />
+      </Group>
+      <Group ID="DiagnosticPageConf">
+        <Selector ID="DiagnosticPageSelection" Value="2">
+          <Property ID="DiagnosticPageRole[1]" Value="Administrator" />
+        </Selector>
+      </Group>
+      <Selector ID="Deployment" Value="DeploymentPLC" />
+    </Group>
+    <Group ID="OpcUa">
+      <Property ID="ServerConnectionTimeout" Value="5000" />
+      <Group ID="SamplingRates">
+        <Property ID="default" Value="200" />
+        <Property ID="slow" Value="1000" />
+        <Property ID="fast" Value="100" />
+      </Group>
+      <Property ID="InitValueChangedEvents" Value="TRUE" />
+    </Group>
+    <Group ID="Timer" />
+    <Group ID="Client">
+      <Group ID="ContentCaching">
+        <Property ID="cachingSlots" Value="200" />
+        <Property ID="preserveOldValues" Value="TRUE" />
+      </Group>
+      <Property ID="defaultVisu" Value="BoxLift" />
+      <Group ID="Widget">
+        <Selector ID="renderingPolicy" Value="1" />
+        <Selector ID="securityPolicy" Value="1" />
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

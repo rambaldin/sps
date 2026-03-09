@@ -1,0 +1,5 @@
+(*Internal (private) variables*)
+VAR
+	AutoState : AutoStateEnum;
+	RunOld : BOOL; (*for edge detection of the Run command*)
+END_VAR

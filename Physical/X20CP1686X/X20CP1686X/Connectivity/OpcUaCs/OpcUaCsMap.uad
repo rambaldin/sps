@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="6.0"?>
+<OpcUaSource FileVersion="10">
+  <Aliases>
+    <ACLAliases>
+      <ACL Id="1">
+        <ACE RoleName="OpcUa" Access="0x10EF" />
+        <ACE RoleName="Administrator" Access="0x10EF" />
+        <ACE RoleName="Everyone" Access="0x00A3" />
+      </ACL>
+    </ACLAliases>
+    <EURangeViolationAliases>
+      <EURangeViolation Id="1" AclInherit="0" />
+    </EURangeViolationAliases>
+    <EURangesAliases>
+      <EURanges Id="1" AclInherit="0" />
+      <EURanges Id="2" AclInherit="0" />
+      <EURanges Id="3" AclInherit="0" />
+      <EURanges Id="4" AclInherit="0" />
+      <EURanges Id="5" AclInherit="0" />
+      <EURanges Id="16" AclInherit="0">
+        <EURange />
+      </EURanges>
+    </EURangesAliases>
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="1" UnitId="0" AclInherit="0" />
+      <EngineeringUnit Id="2" UnitId="0" AclInherit="0" />
+      <EngineeringUnit Id="3" UnitId="0" AclInherit="0" />
+      <EngineeringUnit Id="4" UnitId="0" AclInherit="0" />
+      <EngineeringUnit Id="5" UnitId="0" AclInherit="0" />
+      <EngineeringUnit Id="6" UnitId="0" AclInherit="0" />
+      <EngineeringUnit Id="7" UnitId="0" AclInherit="0" />
+      <EngineeringUnit Id="8" UnitId="0" AclInherit="0" />
+      <EngineeringUnit Id="9" UnitId="0" AclInherit="0" />
+    </EngineeringUnitAliases>
+  </Aliases>
+  <Module AclInherit="2" Name="&lt;Default&gt;">
+    <GlobalVariables WriteMask="100" Name="Global Variables">
+      <Variable Name="gAutomatic" RecursiveEnable="2" />
+      <Variable Name="gAxis01" RecursiveEnable="2" />
+      <Variable WriteMask="100" Name="gBoxCreate" RecursiveEnable="2">
+        <Variable WriteMask="100" Name="Par">
+          <Variable WriteMask="100" Name="UpperBoxCreationInterval" EURangeViolationId="1" EURangesId="1" EngineeringUnitId="1" />
+          <Variable Name="UpperConveyorSpeed" EURangesId="2" EngineeringUnitId="2" />
+          <Variable Name="LowerBoxCreationInterval" EURangesId="3" EngineeringUnitId="3" />
+          <Variable Name="LowerConveyorSpeed" EURangesId="4" EngineeringUnitId="4" />
+        </Variable>
+      </Variable>
+      <Variable Name="gInfeedLow" RecursiveEnable="2">
+        <Variable Name="Par">
+          <Variable WriteMask="100" Name="ConveyorSpeed" EURangeViolationId="1" EURangesId="5" EngineeringUnitId="5" />
+        </Variable>
+      </Variable>
+      <Variable Name="gInfeedUp" RecursiveEnable="2">
+        <Variable Name="Par">
+          <Variable WriteMask="100" Name="ConveyorSpeed" EURangeViolationId="1" EURangesId="16" EngineeringUnitId="6" />
+        </Variable>
+      </Variable>
+      <Variable Name="gLift" RecursiveEnable="2">
+        <Variable Name="Par">
+          <Variable WriteMask="100" Name="ConveyorSpeed" EURangeViolationId="1" EURangesId="16" EngineeringUnitId="7" />
+          <Variable WriteMask="100" Name="LiftSpeed" EURangeViolationId="1" EURangesId="16" EngineeringUnitId="8" />
+        </Variable>
+      </Variable>
+      <Variable Name="gRecipeXml" RecursiveEnable="2" />
+      <Variable Name="gUnload" RecursiveEnable="2">
+        <Variable Name="Par">
+          <Variable WriteMask="100" Name="ConveyorSpeed" EURangeViolationId="1" EURangesId="16" EngineeringUnitId="9" />
+        </Variable>
+      </Variable>
+      <Variable Name="MpAxisParam" RecursiveEnable="2" />
+    </GlobalVariables>
+    <Task Name="SimConnect">
+      <Variable Name="SimInputs" RecursiveEnable="2" />
+      <Variable Name="SimOutputs" RecursiveEnable="2" />
+    </Task>
+    <Task Name="MoveAxis">
+      <Variable Name="Para" />
+    </Task>
+    <Task Name="MachineMan">
+      <Variable Name="AutoState" />
+      <Variable Name="RunOld" />
+    </Task>
+    <Task Name="Lift">
+      <Variable Name="IO" RecursiveEnable="2" />
+      <Variable Name="TryUpwards" />
+    </Task>
+    <Task Name="BoxCreate">
+      <Variable Name="IO" RecursiveEnable="2" />
+    </Task>
+    <Task Name="InfeedUp">
+      <Variable Name="IO" RecursiveEnable="2" />
+    </Task>
+    <Task Name="InfeedLow">
+      <Variable Name="IO" RecursiveEnable="2" />
+    </Task>
+    <Task Name="Unload">
+      <Variable Name="IO" RecursiveEnable="2" />
+      <Variable Name="BoxCounter" />
+    </Task>
+    <Task Name="SafetyCtrl">
+      <Variable Name="di_Reset" />
+      <Variable Name="diagCode_EStop" />
+      <Variable Name="diagCode_LightCurtain" />
+      <Variable Name="diagCode_Root" />
+    </Task>
+  </Module>
+</OpcUaSource>

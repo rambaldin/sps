@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="opcuauser" Type="User">
+    <Property ID="Password" Value="$argon2id$v=19$m=512,t=70,p=1$59UaV0IJcedk$HTrBduH117vB+7zXXpmqFbsIPj3yUNDQzbUb99PVZ8o" Description="password: .opcuauser" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="OpcUa" />
+    </Group>
+  </Element>
+  <Element ID="asdemo" Type="User">
+    <Property ID="Password" Value="$argon2id$v=19$m=512,t=70,p=1$3ZTOZupeVzzO$FcPSbXnrO9taPpY/hQ8gqGv1y4b/7Bmxn86spFKidTI" Description="password: asdemo" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Administrator" />
+      <Property ID="Role[2]" Value="Everyone" />
+      <Property ID="Role[3]" Value="OpcUa" />
+      <Property ID="Role[4]" Value="BR_Anonymous" />
+      <Property ID="Role[5]" Value="BR_Engineer" />
+      <Property ID="Role[6]" Value="BR_Observer" />
+      <Property ID="Role[7]" Value="BR_SafetyAdmin" />
+      <Property ID="Role[8]" Value="BR_SecurityAdmin" />
+    </Group>
+  </Element>
+  <Element ID="Anonymous" Type="User">
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Everyone" />
+    </Group>
+  </Element>
+</Configuration>

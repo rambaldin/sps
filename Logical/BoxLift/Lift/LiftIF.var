@@ -1,0 +1,3 @@
+VAR
+	gLift : LiftIFType; (*Communication interface for the Lift module*)
+END_VAR

@@ -1,0 +1,9 @@
+VAR
+	doLamp : BOOL;
+	diSwitch : BOOL;
+	LightOn_RS : RS;
+	LightOn_TON : TON;
+	LightOff_TON : TON;
+	Counter : UINT;
+	LampToggle_CTU : CTU;
+END_VAR

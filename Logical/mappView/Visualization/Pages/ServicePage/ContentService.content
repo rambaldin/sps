@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentService" guid="b1788e52-0391-47af-ba4d-9bc49f0e9753" height="390" width="700" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Label" id="HeadlineVelocities" top="8" left="8" width="335" height="45" zIndex="0" text="Velocities of different conveyors" style="Headline4" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputSpeedInTop" top="50" left="24" zIndex="1" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelSpeedInTop" top="50" left="144" width="auto" zIndex="2" text="Conveyor speed entrance 1" style="Body2_Regular" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputSpeedOutTop" top="99" left="24" zIndex="3" maxValue="2" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelSpeedOutTop" top="99" left="144" width="auto" zIndex="4" text="Conveyor speed infeed 1" style="Body2_Regular" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputSpeedInBottom" top="148" left="24" zIndex="5" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputSpeedOutBottom" top="198" left="24" zIndex="6" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputSpeedLift" top="247" left="24" zIndex="7" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputSpeedUnload" top="296" left="24" zIndex="8" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelSpeedInBottom" top="148" left="144" width="auto" zIndex="9" text="Conveyor speed entrance 2" style="Body2_Regular" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelSpeedLift" top="247" left="144" width="auto" zIndex="10" text="Conveyor speed lift" style="Body2_Regular" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelSpeedOutBottom" top="198" left="144" width="auto" zIndex="11" text="Conveyor speed infeed 2" style="Body2_Regular" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelSpeedUnload" top="296" left="144" width="auto" zIndex="12" text="Conveyor speed Unload" style="Body2_Regular" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputLiftTravelSpeed" top="345" left="24" zIndex="13" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelLiftTravelSpeed" top="345" left="144" width="auto" zIndex="14" text="Lift travel speed" style="Body2_Regular" />
+    <Widget xsi:type="widgets.brease.Label" id="HeadlineSpawnRate" top="8" left="408" width="236" height="45" zIndex="15" text="Creation intervals (sec)" style="Headline4" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputSpawnRateTop" top="50" left="424" zIndex="16" maxValue="40" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelInputSpawnRateTop" top="50" left="544" width="auto" zIndex="17" text="Top Boxes" style="Body2_Regular" />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputSpawnRateBottom" top="99" left="424" zIndex="18" maxValue="40" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelInputSpawnRateBottom" top="99" left="544" width="auto" zIndex="19" text="Bottom Boxes" style="Body2_Regular" />
+  </Widgets>
+</Content>

@@ -1,0 +1,6 @@
+VAR
+	diagCode_EStop : UINT;
+	diagCode_LightCurtain : UINT;
+	diagCode_Root : UINT;
+	di_Reset : BOOL;
+END_VAR

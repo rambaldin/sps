@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package Version="1.0.0" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">Documentation</Object>
+    <Object Type="File">Project.language</Object>
+    <Object Type="File" Description="Global data types">Global.typ</Object>
+    <Object Type="File" Description="Global variables">Global.var</Object>
+    <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Package">Motion</Object>
+    <Object Type="Package">Recipe</Object>
+    <Object Type="Package">Safety</Object>
+    <Object Type="Package" Description="Project source code" TransferedForTargetSourceCompare="true">BoxLift</Object>
+    <Object Type="Package" Description="Project source code OOP" TransferedForTargetSourceCompare="true">BoxLiftOOP</Object>
+    <Object Type="Package">mappView</Object>
+    <Object Type="Program" Language="IEC" TransferedForTargetSourceCompare="true">LampTest</Object>
+    <Object Type="Program" Language="IEC">SimConnect</Object>
+  </Objects>
+</Package>

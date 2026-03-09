@@ -1,0 +1,3 @@
+VAR
+	gUnload : UnloadIFType; (*Communication interface for the Unload module*)
+END_VAR

@@ -1,0 +1,3 @@
+VAR
+	gBoxCreate : BoxCreateIFType; (*Communication interface for the Box Creation module*)
+END_VAR

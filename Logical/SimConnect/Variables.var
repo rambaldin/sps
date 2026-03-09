@@ -1,0 +1,7 @@
+VAR
+	SimInputs : SimInputsType;
+	SimOutputs : SimOutputsType := (aoLiftSetSpeed:=0.6);
+
+	refactored : BOOL;
+
+END_VAR

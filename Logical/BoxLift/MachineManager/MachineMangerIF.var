@@ -1,0 +1,3 @@
+VAR
+	gAutomatic : AutomaticIFType; (*Communication interface for the Automatic module*)
+END_VAR

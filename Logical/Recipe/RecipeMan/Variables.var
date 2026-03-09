@@ -1,0 +1,5 @@
+VAR
+	MpRecipeXml_0 : MpRecipeXml;
+	MpRecipePar : MpRecipeRegPar;
+	FileName : {REDUND_UNREPLICABLE} STRING[80] := 'AxisParameter';
+END_VAR

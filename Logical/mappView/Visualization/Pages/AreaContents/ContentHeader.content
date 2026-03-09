@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="ContentHeader" guid="e52d22f5-8c88-4351-a926-35afc14f430e" height="60" width="800" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.Image" id="BnR_logo" top="2" left="656" width="147" height="60" zIndex="0" image="Media/BnR_Logo_Tagline_left.svg" borderStyle="none" borderWidth="0px" />
+    <Widget xsi:type="widgets.brease.Label" id="MachineName" top="2" left="0" width="auto" height="64" zIndex="1" text="Boxlift - Automation Studio 6 demo" padding="0px 16px 0px 16px" style="Headline3" />
+  </Widgets>
+</Content>

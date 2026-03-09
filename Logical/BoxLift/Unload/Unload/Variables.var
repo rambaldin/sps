@@ -1,0 +1,5 @@
+(*Internal (private) variables*)
+VAR
+	IO : IOType; (*Upper Infeed module IOs*)
+	BoxCounter : UDINT := 0; (*counter of transported boxes*)
+END_VAR

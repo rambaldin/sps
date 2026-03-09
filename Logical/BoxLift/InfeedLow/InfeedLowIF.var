@@ -1,0 +1,3 @@
+VAR
+	gInfeedLow : InfeedLowIFType; (*Communication interface for the Upper Infeed module*)
+END_VAR
