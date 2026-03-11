@@ -4,7 +4,7 @@
   <TaskClass Name="Cyclic#1">
     <Task Name="MoveAxis" Source="Motion.MoveAxis.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="SimConnect" Source="SimConnect.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="BoxCreate" Source="BoxLift.MachineManager.MachineManager.BoxCreate.BoxCreate.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="BoxCreate" Source="BoxLift.BoxCreate.BoxCreate.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="InfeedUp" Source="BoxLift.InfeedUp.InfeedUp.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="InfeedLow" Source="BoxLift.InfeedLow.InfeedLow.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="Lift" Source="BoxLift.Lift.Lift.prg" Memory="UserROM" Language="IEC" Debugging="true" />
