@@ -1,4 +1,4 @@
-(*********************************************************************************
+(********************************************************************************
  * Copyright: B&R Industrial Automation GmbH 
  * Author: B&R 
  * Created: 2024-09-23 
@@ -6,9 +6,8 @@
  *
  * The Automatic module controls the automatic machine sequence.
  *********************************************************************************)
- 
+
 PROGRAM _INIT
-	
 END_PROGRAM
 
 PROGRAM _CYCLIC
@@ -26,9 +25,8 @@ PROGRAM _CYCLIC
 		gLift.Cmd.MoveMiddle := FALSE;
 		gLift.Cmd.MoveTop := FALSE;
 		gLift.Cmd.ReceiveBox := FALSE;
-		gUnload.Cmd.Run := FALSE;		
+		gUnload.Cmd.Run := FALSE;
 	END_IF;
-		
 	RunOld := gAutomatic.Cmd.Run; // edge detection
 	
 	CASE AutoState OF

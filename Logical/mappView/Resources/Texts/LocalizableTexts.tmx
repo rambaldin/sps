@@ -6,16 +6,25 @@
   </header>
   <body>
     <tu tuid="MachineState.0">
+      <tuv xml:lang="de">
+        <seg>dfwr</seg>
+      </tuv>
       <tuv xml:lang="en">
         <seg>Idle</seg>
       </tuv>
     </tu>
     <tu tuid="MachineState.1">
+      <tuv xml:lang="de">
+        <seg>reger</seg>
+      </tuv>
       <tuv xml:lang="en">
         <seg>Wait for box</seg>
       </tuv>
     </tu>
     <tu tuid="MachineState.2">
+      <tuv xml:lang="de">
+        <seg>regreg</seg>
+      </tuv>
       <tuv xml:lang="en">
         <seg>Move lift to upper conveyor</seg>
       </tuv>
@@ -31,6 +40,9 @@
       </tuv>
     </tu>
     <tu tuid="MachineState.5">
+      <tuv xml:lang="de">
+        <seg>rgreg</seg>
+      </tuv>
       <tuv xml:lang="en">
         <seg>Handover lower box</seg>
       </tuv>

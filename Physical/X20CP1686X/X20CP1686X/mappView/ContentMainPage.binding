@@ -9,10 +9,7 @@
 			<Source xsi:type="opcUa" refId="::MachineMan:AutoState" attribute="value" />
 			<Target xsi:type="snippet" refId="MachineStateSnippet" attribute="value" />
 		</Binding>		
-		<Binding mode="oneWay">
-			<Source xsi:type="snippet" refId="MachineStateSnippet" attribute="value" />
-			<Target xsi:type="brease" contentRefId="ContentMain" widgetRefId="TextOutputStatus" attribute="value" />
-		</Binding>
+		
 		<Binding mode="oneWay">
 			<Source xsi:type="opcUa" refId="::SimConnect:SimOutputs.aoInfeed2BoxCreationInterval" attribute="value" />
 			<Target xsi:type="brease" contentRefId="ContentMain" widgetRefId="SpawnRateBottom" attribute="value" />

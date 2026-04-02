@@ -12,7 +12,7 @@
     <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputSpeedUnload" top="296" left="24" zIndex="8" />
     <Widget xsi:type="widgets.brease.Label" id="LabelSpeedInBottom" top="148" left="144" width="auto" zIndex="9" text="Conveyor speed entrance 2" style="Body2_Regular" />
     <Widget xsi:type="widgets.brease.Label" id="LabelSpeedLift" top="247" left="144" width="auto" zIndex="10" text="Conveyor speed lift" style="Body2_Regular" />
-    <Widget xsi:type="widgets.brease.Label" id="LabelSpeedOutBottom" top="198" left="144" width="auto" zIndex="11" text="Conveyor speed infeed 2" style="Body2_Regular" />
+    <Widget xsi:type="widgets.brease.Label" id="LabelSpeedOutBottom" top="200" left="140" width="auto" zIndex="11" text="Conveyor speed infeed 2" style="Body2_Regular" />
     <Widget xsi:type="widgets.brease.Label" id="LabelSpeedUnload" top="296" left="144" width="auto" zIndex="12" text="Conveyor speed Unload" style="Body2_Regular" />
     <Widget xsi:type="widgets.brease.NumericInput" id="NumericInputLiftTravelSpeed" top="345" left="24" zIndex="13" />
     <Widget xsi:type="widgets.brease.Label" id="LabelLiftTravelSpeed" top="345" left="144" width="auto" zIndex="14" text="Lift travel speed" style="Body2_Regular" />

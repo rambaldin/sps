@@ -10,7 +10,7 @@
     </Widget>
     <Widget xsi:type="widgets.brease.GroupBox" id="GroupResetMachineState" top="208" left="250" height="160" zIndex="1" text="BoxLift status" textAlign="center">
       <Widgets>
-        <Widget xsi:type="widgets.brease.TextOutput" id="TextOutputStatus" top="0" left="0" width="200" height="120" zIndex="0" breakWord="true" multiLine="true" textAlign="center" padding="4px" style="Body2_Regular" />
+        <Widget xsi:type="widgets.brease.TextOutput" id="TextOutputStatus" top="0" left="0" width="200" height="120" zIndex="0" breakWord="true" multiLine="true" value="$IAT/MachineState.0" textAlign="center bottom" padding="4px" style="Body2_Regular" />
       </Widgets>
     </Widget>
     <Widget xsi:type="widgets.brease.GroupBox" id="GroupCreationOfBoxes" top="208" left="30" height="160" zIndex="2" text="Creation of boxes" textAlign="center">
